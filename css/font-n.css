@@ -1,0 +1,17 @@
+body{
+    background-size: cover;
+    background-image: url("../img/Movies-background.png");
+}
+
+h1{
+    color: rgb(250, 37, 37);
+    font-family: 'net';
+    font-size: 200px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+@font-face{
+    font-family: 'net';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}

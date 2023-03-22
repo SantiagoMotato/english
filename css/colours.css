@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-image: url(https://wallpaper.dog/large/20414931.jpg);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+    border: 2px solid rgb(0, 0, 0); 
+    transition: 2s; 
+}
+.box-1:hover{
+    transform: scale(1.5);
+    transition: 1.5s;   
+}
+
+.box-2{
+    height: 200px;
+    width: 200px;
+    background-color:   rgb(59, 137, 255);
+    border: 2px solid rgb(0, 0, 0); 
+    transition: 2s;  
+
+}
+.box-2:hover{
+    transform: scale(1.5);
+    transition: 1.5s; 
+}
+.box-3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 2s;  
+}
+.box-3:hover{
+    transform: scale(1.5);
+    transition: 1.5s;  
+}
+
+h1{
+    text-align: center;
+}

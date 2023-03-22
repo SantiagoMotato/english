@@ -1,0 +1,21 @@
+h1{
+    font-family: "Disney";
+    text-align:left;
+    font-size: 190px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "Disney";
+    src: url(../fonts/Walter.ttf);
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/cars.jpg);
+}
