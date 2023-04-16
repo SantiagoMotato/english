@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://wallpapers.com/images/featured/tzhfez1w8ud2z8aw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .font-box{
+    display: block;
+    justify-content: space-around;
+} */
+h1{
+    font-size: 100px;
+    font-family: "pagani";
+    border-bottom: 2px solid rgb(190, 65, 65);
+    color: rgb(255, 0, 0);
+    margin-top: 0px;
+}
+@font-face {
+    font-family: "pagani";
+    src: url(/english/fonts/Arkitech.ttf);
+}
+.li{
+    list-style: none;
+}
+.item-menu{
+    font-size: 40px;
+    display: flex;
+}
+.font-d{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/971/593/287/disneyland-walt-disney-disney-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 300px;
+    transition: 2s;
+    margin-bottom: 20px;
+}
+.font-d:hover{
+    transform: rotate(15deg);
+    transition: 2s;
+}
+.font-g{
+    background-image: url(https://sjiassociates.com/wp-content/uploads/2019/05/got_thumbnail_finale.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+.font-g:hover{
+    transform: scale(0.85);
+    transition: 2s;
+}
+.font-n{
+    background-image: url(https://www.dafont.com/forum/attach/orig/9/3/930608.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+.font-n:hover{
+    transform: rotate(15deg);
+    transition: 2s;
+}

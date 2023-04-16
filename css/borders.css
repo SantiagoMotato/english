@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/80/03/47/360_F_280034752_DLKb0deHfTDUTYyUs6eDYkSS97N0vaKy.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.border-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    display: flex;
+    border: 6px solid rgb(53, 53, 53);
+    background-color: rgb(190, 166, 166);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-2{
+    display: flex;
+    border: 6px dotted rgb(255, 84, 84);
+    background-color: rgb(222, 181, 132);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-3{
+    display: flex;
+    border: 6px dashed rgb(189, 189, 189);
+    background-color: rgb(5, 150, 155);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-4{
+    display: flex;
+    border: 6px double rgb(0, 0, 0);
+    background-color: #f663dd;
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.box-5{
+    display: flex;
+    border: 6px groove rgb(250, 1, 1);
+    background-color: rgb(246, 188, 71);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+}
+.solid{
+    font-size: 30px;
+}
+.dotted{
+    font-size: 35px;
+}
+.dashed{
+    font-size: 30px;
+}
+.double{
+    font-size: 27px;
+}
+.groove{
+    font-size: 35px;
+}
